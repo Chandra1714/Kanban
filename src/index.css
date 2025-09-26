@@ -2,11 +2,11 @@
 
 @keyframes glow {
     0%,100%{
-        text-shadow: 0 0 5px white,0 0 10px white ,0 0 20px white ;
+        text-shadow: 0 0 5px powderblue,0 0 10px peru ,0 0 20px black ;
         color:white 
     }
     50%{
-        text-shadow:0 0 10px black,0 0 20px white,0 0 30px white ;
+        text-shadow:0 0 10px black,0 0 20px brown,0 0 30px red  ;
         color:black;
     }
     
@@ -26,9 +26,9 @@
   .text-glow {
     text-shadow:
       0 0 4px #fff,
-      0 0 8px white,  
-      0 0 12px #7f1dff, /* deeper purple */
-      0 0 18px #5b21b6; /* indigo accent */
+      0 0 8px black,  
+      0 0 12px #7f1dff, 
+      0 0 18px #5b21b6; 
   }
 
 }

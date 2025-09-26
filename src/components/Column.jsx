@@ -40,7 +40,7 @@ export default function Column({ Column }) {
                  transition-transform duration-500 ${columnStyles[Column.id]}`}
       onDragOver={(e) => e.preventDefault()}
       onDrop={handleDrop}>
-      <h2 className="text-2xl font-semibold mb-4 text-white text-glow animate-[glow_5s_ease-in-out_infinite]">
+      <h2 className="text-2xl font-semibold mb-4 text-white text-glow">
   {Column.title}
 </h2>
       <div className="flex flex-col gap-2 w-full">
